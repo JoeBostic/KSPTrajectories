@@ -114,27 +114,36 @@
       <ItemGroup>
         <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
           <SpecificVersion>False</SpecificVersion>
-          <HintPath>$(KSPBACKPORTDIR)\KSP_x64_Data\Managed\Assembly-CSharp.dll</HintPath>
+          <HintPath>D:\Games\Steam\steamapps\common\Kerbal Space Program\KSP_x64_Data\Managed\Assembly-CSharp.dll</HintPath>
           <Private>False</Private>
         </Reference>
         <Reference Include="Assembly-CSharp-firstpass, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
           <SpecificVersion>False</SpecificVersion>
-          <HintPath>$(KSPBACKPORTDIR)\KSP_x64_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+          <HintPath>D:\Games\Steam\steamapps\common\Kerbal Space Program\KSP_x64_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
           <Private>False</Private>
         </Reference>
         <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
           <SpecificVersion>False</SpecificVersion>
-          <HintPath>$(KSPBACKPORTDIR)\KSP_x64_Data\Managed\UnityEngine.dll</HintPath>
+          <HintPath>D:\Games\Steam\steamapps\common\Kerbal Space Program\KSP_x64_Data\Managed\UnityEngine.dll</HintPath>
           <Private>False</Private>
         </Reference>
         <Reference Include="UnityEngine.UI">
-          <HintPath>$(KSPBACKPORTDIR)\KSP_x64_Data\Managed\UnityEngine.UI.dll</HintPath>
+          <HintPath>D:\Games\Steam\steamapps\common\Kerbal Space Program\KSP_x64_Data\Managed\UnityEngine.UI.dll</HintPath>
           <Private>False</Private>
         </Reference>
       </ItemGroup>
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Reference Include="ClickThroughBlocker">
+      <HintPath>D:\Games\Steam\steamapps\common\Kerbal Space Program\GameData\000_ClickThroughBlocker\Plugins\ClickThroughBlocker.dll</HintPath>
+    </Reference>
+    <Reference Include="ContractConfigurator">
+      <HintPath>D:\Games\Steam\steamapps\common\Kerbal Space Program\GameData\ContractConfigurator\ContractConfigurator.dll</HintPath>
+    </Reference>
+    <Reference Include="KSPAssets">
+      <HintPath>D:\Games\Steam\steamapps\common\Kerbal Space Program\KSP_x64_Data\Managed\KSPAssets.dll</HintPath>
+    </Reference>
     <Reference Include="System">
       <Private>False</Private>
     </Reference>
@@ -152,6 +161,9 @@
     </Reference>
     <Reference Include="System.Xml">
       <Private>False</Private>
+    </Reference>
+    <Reference Include="ToolbarControl">
+      <HintPath>D:\Games\Steam\steamapps\common\Kerbal Space Program\GameData\001_ToolbarControl\Plugins\ToolbarControl.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
